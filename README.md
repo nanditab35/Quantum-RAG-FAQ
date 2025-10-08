@@ -4,5 +4,6 @@ This repository contains a collection of notebooks for building and evaluating a
 * Vector RAG
   - Code: V1_V2-(VectorRAG_Reranker) For QM FAQ.ipynb
   - Blog: https://www.kaggle.com/code/nanditab35/vectorrag-reranker-for-qm-faq
-* Graph RAG => Coming soon
 * Extracting Knowledge Graph => Coming soon
+* Graph RAG => Coming soon
+* Hybrid RAG (Vector+Graph) => Coming soon 
