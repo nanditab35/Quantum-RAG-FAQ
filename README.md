@@ -2,6 +2,9 @@
 - This repository contains the implementation of a basic Vector-based Retrieval-Augmented Generation (RAG) pipeline designed to answer questions based on a corpus of Quantum Mechanics (QM) FAQs.
 - The key feature of this project is the integration of a cross-encoder reranker to improve the relevance of retrieved documents before they are passed to the final Language Model (LLM).
 
+✍️ **Detailed Blog Explaining This Project End-to-End**:
+- https://www.kaggle.com/code/nanditab35/vectorrag-reranker-for-qm-faq
+
 🚀 **Key Features**:
 - Vector Database: Utilizes a standard vector store (FAISS) to index the high-dimensional embeddings of the QM text corpus.
 - Contextual Reranking: Implements a specialized cross-encoder (e.g., jina-reranker-v2) to re-score the top-$K$ documents retrieved from the vector store. This significantly boosts precision by focusing on true contextual relevance rather than just vector proximity.
