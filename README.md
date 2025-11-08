@@ -33,7 +33,7 @@
 - Reranker Cost Anomaly: During testing, the jinaai/jina-reranker-v2-base-multilingual configuration was observed to cause disproportionate API call volume to the generator LLM endpoint, necessitating caution and cost profiling if re-enabled.
 - LLM generates the answer using the top $N$ context piece
 
-** 👥 Author**
-GitHub: @nanditab35
+👥 **Author**
+- GitHub: @nanditab35
 
 
